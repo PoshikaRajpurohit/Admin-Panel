@@ -1,0 +1,26 @@
+@media(max-width:1399px){
+    .col-xl-12{
+        width:100%;
+    }
+    .col-xl-6{
+        width: 50%;
+    }
+}
+    
+@media(max-width:1199px){
+    .col-lg-12{
+        width:100%;
+    }
+    .analytics-cards,#chart,.analytics .col-9 .analytic-items{
+        margin:10px;
+    }
+    .col-lg-6{
+        width: 50%;
+    }
+    header,main,footer{
+        width:100%;
+    }
+    aside{
+        transform: translateX(-100%);
+    }
+}
