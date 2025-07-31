@@ -1,8 +1,8 @@
 var options = {
-    series: [44, 55, 13, 33],
+    series: [40, 33, 13, 25],
     chart: {
-    width: 380,
-    type: 'donut',
+      width: 300,
+      type: 'donut',
   },
   dataLabels: {
     enabled: false
@@ -11,19 +11,14 @@ var options = {
     breakpoint: 480,
     options: {
       chart: {
-        width: 200
+        width: 100
       },
-      legend: {
-        show: false
-      }
     }
   }],
-  legend: {
-    position: 'right',
-    offsetY: 0,
-    height: 230,
-  }
+  
   };
-
+  
   var chart = new ApexCharts(document.querySelector("#chart-2"), options);
   chart.render();
+  
+  
